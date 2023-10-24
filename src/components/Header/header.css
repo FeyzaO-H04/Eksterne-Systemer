@@ -1,0 +1,94 @@
+.header{
+  height: 100px;
+  background-color: #f1e9e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+}
+
+.logo-button{
+  font-size: 40px;
+  background-color: #f1e9e3;
+  color: #0f554c;
+  font-family: 'Tilt Prism', cursive;
+  font-weight: 900;
+}
+ 
+button{
+  border: none;
+  font-size: 17px;
+  color: #666;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.my-books-button{
+  margin-left: 150px;
+  color: #333;
+  width: 87px;
+  background-color: #f1e9e3;
+  cursor: pointer;
+}
+
+.nav-right{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  border: 1px solid #c9c8c8;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+}
+
+.select{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcfaf1;
+  border-right: 1px solid #ddd;
+  height: 48px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  padding: 0 10px;
+}
+
+select{
+  font-size: 17px;
+  color: #666;
+  border: none;
+  background-color: #fcfaf1;
+  outline: none;
+  width: 73px;
+  cursor: pointer;
+}
+
+.search-bar{
+  width: 300px;
+  height: 37px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #f9f9f9;
+  color: #666;
+  border-right: 1px solid #c9c8c8;
+}
+
+input{
+  background-color: #f9f9f9;
+  border: none;
+  outline: none;
+  color: #666;
+  font-size: 17px;
+}
+
+.menu-btn{
+  width: 90px;
+}
