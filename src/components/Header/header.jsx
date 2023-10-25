@@ -1,17 +1,22 @@
 import "./header.css"
-/*import {
+import {
   Link,
-} from 'react-router-dom'*/
-
-
+} from 'react-router-dom'
+/*
+<li><Link to="/man">MAN</Link></li>
+<button >My Books</button> */
 export function Header(){
   
   return(
     <div className="header">
 
       <div className="nav">
-        <button className="logo-button">LIBRARY</button>
-        <button className="my-books-button">My Books</button>
+     
+       <Link to="/" className="logo">LIBRARY</Link>
+
+       <Link to="/mybooks" className="my-books-button">My Books</Link>
+       
+     
 
         <div className="nav-right">
           <div className="select">
@@ -28,10 +33,6 @@ export function Header(){
           <button className="menu-btn"><i className="fa-solid fa-bars"></i></button>
         </div>
       </div>
-
-      
-
-    
 
     </div>
   )
