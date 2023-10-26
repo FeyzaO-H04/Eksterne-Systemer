@@ -1,22 +1,31 @@
-.bookContainer{
+.mainContent{
   height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
 }
 
 .filterContainer{
+  width: 500px;
   display: flex;
-  flex-direction: row;
   align-items: center;
-  height: 50px;
+  justify-content: space-between;
   border: 1px solid #c9c8c8;
   border-radius: 6px;
   background-color: #f9f9f9;
-  padding: 0 30px;
-  position: absolute;
-  top: 20px;
-  left: 30px;
+  padding: 20px 30px;
+  margin: 20px 30px;
+}
+
+.bookCards{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.bookCard{
+  background-color: #f1e9e3;
+  padding: 20px 30px;
+  border-radius: 10px;
 }

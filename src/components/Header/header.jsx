@@ -2,9 +2,8 @@ import "./header.css"
 import {
   Link,
 } from 'react-router-dom'
-/*
-<li><Link to="/man">MAN</Link></li>
-<button >My Books</button> */
+
+
 export function Header(){
   
   return(
@@ -17,7 +16,6 @@ export function Header(){
        <Link to="/mybooks" className="my-books-button">My Books</Link>
        
      
-
         <div className="nav-right">
           <div className="select">
             <select className="searchSelect">
