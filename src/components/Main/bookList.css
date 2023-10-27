@@ -2,6 +2,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+  margin: 20px 30px;
 }
 
 .filterContainer{
@@ -13,7 +14,7 @@
   border-radius: 6px;
   background-color: #f9f9f9;
   padding: 20px 30px;
-  margin: 20px 30px;
+  margin: 30px 30px;
 }
 
 .bookCards{
@@ -22,6 +23,7 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 40px;
+  margin: 50px 30px;
 }
 
 .bookCard{

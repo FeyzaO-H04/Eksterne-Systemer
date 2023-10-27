@@ -79,23 +79,24 @@ export function BookList() {
 
   return (
     <div className="mainContent">
-      <div className="bookContainer">
-        {
-          isLoading
-            ? <Loading />
-            : error ? <ErrorMessage />
-              :
-            <ul>
-               {
-                data.map((book, id) => (
-                  <li key={id} className="bookCard">
-                    <BookCard book={book}/>
-                  </li>
-                ))
-               }
-            </ul>
-        }
-      </div>
+
+        <div className="bookContainer">
+          {
+            isLoading
+              ? <Loading />
+              : error ? <ErrorMessage />
+                :
+              <ul className="bookCards">
+                {
+                  data.map((book, id) => (
+                    <li key={id} className="bookCard">
+                      <BookCard book={book}/>
+                    </li>
+                  ))
+                }
+              </ul>
+          }
+        </div>
     </div>
   );
 }
